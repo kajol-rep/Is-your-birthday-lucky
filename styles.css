@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #DB2777;
+}
+body{
+    margin: 0px;
+}
+.nav{
+    padding: 1rem;
+    background-color: aqua;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center{
+    text-align: center;
+}
+.container{
+    max-width: 40rem;
+    margin: auto;
+    padding: 1rem;
+
+}

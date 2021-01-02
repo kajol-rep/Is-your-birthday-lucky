@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky-Birthday</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="center">Lets find out how lucky your birthday is</h1>
+    </div>
+    <div class="container center">
+        
+        <div>enter your name</div>
+        <input id="username" placeholder="Name" />
+
+        <div>enter your date of birth</div>
+        <input id="birthdate" type="date" required-pattern="\d{2}-\d{2}-\d{4}" placeholder="dd-mm-yyyy" />
+
+        <div >enter your lucky number</div>
+        <input id="luckynum" type="number" placeholder="Number" />
+        <button id="submitbtn">Submit</button>
+        <div id="output"></div>
+<script src="app.js" type="text/javascript"></script>
+    
+    </div>
+</body>
+</html>
