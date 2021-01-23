@@ -72,34 +72,17 @@ footer .link{
     border-radius: 50rem;
     
     object-fit: cover;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
   }
 
 h1.ml8 {
     font-weight: 900;
-    font-size: 4.5em;
+    font-size: 3.5rem;
     color: yellow;
-    width: 3em;
-    height: 3em;
-  }
-
-  .ml8 .letters-container {
-    position: absolute;
-    left: 0.1em;
-    right: 0;
-    margin: auto;
-    top: -2em;
-    bottom: 0;
-    height: 1em;
-  }
-  .ml8 .letters {
-    position: relative;
-    z-index: 2;
-    display: inline-block;
-    line-height: 0.8em;
     
   }
+
   
   .ml8 .circle {
     position: absolute;
@@ -111,18 +94,19 @@ h1.ml8 {
   }
   
   .ml8 .circle-white {
-    width: 6.5em;
-    height: 6.5em;
+    width: 25rem;
+    height: 25rem;
     border: 2px solid yellow;
-    border-radius: 7em;
+    border-radius: 25rem;
     background-color: rgb(192, 80, 158);
   }
   
   .ml8 .circle-dark {
-    width: 5em;
-    height: 5em;
+    width: 18rem;
+    height: 18rem;
     background-color: #4f7b86;
-    border-radius: 3em;
+    border: 2px dashed yellow;
+    border-radius: 15rem;
     
   }
   
@@ -131,8 +115,8 @@ h1.ml8 {
     
     background-color: transparent;
     border: 2px solid #16b8e0;
-    width: 5.3em;
-    height: 5.3em;
+    width: 20rem;
+    height: 20rem;
     animation: box-move2 5s infinite;
   }
 
@@ -140,31 +124,24 @@ h1.ml8 {
     -webkit-transform: rotate(45deg) ;
     background-color: transparent;
     border: 2px solid #46f8c3;
-    width: 5.3em;
-    height: 5.3em;
+    width: 20rem;
+    height: 20rem;
     animation: box-move1 5s infinite;
   }
 
-  .ml8 .box-dark-dashed3 {
-    
-    background-color: transparent;
-    border: 2px dashed yellow;
-    width: 4.7em;
-    height: 4.7em;
-    border-radius: 4em;
-  }
+  
 
   @keyframes box-move1 {
-    0%   {width: 0em; height: 0em}
-    50%  {width: 6em; height:6em}
+    0%   {width: 0rem; height: 0rem}
+    50%  {width: 20rem; height:20rem}
     
-    100% {width: 5.3em; height:5.3em}
+    100% {width: 22rem; height:22rem}
   }
   @keyframes box-move2 {
-    0%   {width: 0em; height: 0em}
-    50%  {width: 5.3em; height:5.3em}
+    0%   {width: 0rem; height: 0rem}
+    50%  {width: 22rem; height:22rem}
     
-    100% {width: 6em; height: 6em}
+    100% {width: 20rem; height: 20rem}
   }
 
   
@@ -182,7 +159,7 @@ h1.ml8 {
   font-family: 'Arvo', serif;
   font-weight: 300;
   color: rgb(143, 34, 119);
-  font-size: 5rem;
+  font-size: 4rem;
   animation: glow 1s ease-in-out infinite alternate;
   
 }
@@ -202,7 +179,7 @@ h1.ml8 {
     position: absolute;
     font-size: 5rem;
     
-   margin-left: 7rem;
+   margin-left: 5rem;
     animation: heartbeat 2s infinite;
   }
   @keyframes heartbeat {
