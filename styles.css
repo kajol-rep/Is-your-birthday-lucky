@@ -89,23 +89,23 @@ footer .link{
   }
   
   .circle-white {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     border: 2px solid yellow;
-    border-radius: 25rem;
+    border-radius: 20rem;
     background-color: rgb(192, 80, 158);
   }
   
    .circle-dark {
     font-weight: 900;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: yellow;
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 15rem;
     background-color: #4f7b86;
     border: 2px dashed yellow;
-    border-radius: 18rem;
-    
+    border-radius: 15rem;
+    text-align: center;
     
   }
   
@@ -114,17 +114,17 @@ footer .link{
     
     background-color: transparent;
     border: 2px solid #16b8e0;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     animation: box-move2 5s infinite;
   }
 
   .box-dark-border2 {
-    -webkit-transform: rotate(45deg) ;
+    
     background-color: transparent;
     border: 2px solid #46f8c3;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     animation: box-move1 5s infinite;
   }
 
@@ -132,15 +132,17 @@ footer .link{
 
   @keyframes box-move1 {
     0%   {width: 0rem; height: 0rem}
-    50%  {width: 20rem; height:20rem}
+    50%  {width: 18rem; height:18rem}
     
-    100% {width: 22rem; height:22rem}
+    100% {width: 20rem; height:20rem}
+  
+    100% {transform: rotate(45deg); }
   }
   @keyframes box-move2 {
     0%   {width: 0rem; height: 0rem}
-    50%  {width: 22rem; height:22rem}
+    50%  {width: 20rem; height:20rem}
     
-    100% {width: 20rem; height: 20rem}
+    100% {width: 18rem; height: 18rem}
   }
 
   
