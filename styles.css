@@ -22,14 +22,6 @@ h2{
     padding: 1rem;
 
 }
-.container1{
-    max-width: 39rem;
-    height: 39rem;
-    margin: auto;
-    padding: 1rem;
-    background-image: url("https://i.pinimg.com/originals/2b/4b/cf/2b4bcffeaea9ce0d040e11944aee7601.jpg");
-
-}
 .pad{
     padding: 0.5rem;
 }
@@ -182,7 +174,7 @@ h1.ml8 {
    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: rgb(136, 36, 128);
-   font-size: 64px;
+   font-size: 3rem;
    font-family: 'Arvo', serif;
 }
 
@@ -190,7 +182,7 @@ h1.ml8 {
   font-family: 'Arvo', serif;
   font-weight: 300;
   color: rgb(143, 34, 119);
-  font-size: 80px;
+  font-size: 5rem;
   animation: glow 1s ease-in-out infinite alternate;
   
 }
@@ -207,15 +199,17 @@ h1.ml8 {
   }
 
   .emoji{
+    position: absolute;
     font-size: 5rem;
-    margin-left: 25rem;
-    animation: heartbeat 1s infinite;
+    
+   margin-left: 7rem;
+    animation: heartbeat 2s infinite;
   }
   @keyframes heartbeat {
     from{
-      font-size: 5rem;
+      font-size: 3rem;
     }
     to{
-      font-size: 7rem;
+      font-size: 5rem;
     }
   }
