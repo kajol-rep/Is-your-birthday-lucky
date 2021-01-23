@@ -5,10 +5,13 @@ body{
     margin: 0px;
 }
 .nav{
-    padding: 1rem;
-    background-color: aqua;
+    padding: 0.4rem;
+    background-image: linear-gradient(-45deg, #f761a1 0, #8c1bab 100%);
     padding-left: 1rem;
     padding-right: 1rem;
+}
+h2{
+    margin-block-start: 0em;
 }
 .center{
     text-align: center;
@@ -19,3 +22,200 @@ body{
     padding: 1rem;
 
 }
+.container1{
+    max-width: 39rem;
+    height: 39rem;
+    margin: auto;
+    padding: 1rem;
+    background-image: url("https://i.pinimg.com/originals/2b/4b/cf/2b4bcffeaea9ce0d040e11944aee7601.jpg");
+
+}
+.pad{
+    padding: 0.5rem;
+}
+span.label {
+    font-size: 1.5em;
+    font-weight: 700;
+    
+
+}
+.btn{
+    padding: 0.5rem;
+    border-style: none;
+    border-radius: 3px;
+    background-image: linear-gradient(-45deg, #f761a1 0, #8c1bab 100%);
+  
+}
+img.size{
+    margin-top: 2rem;
+    height: 8rem;
+    animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -20px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+footer .link{
+    text-decoration: none;
+    color: black;
+}
+ 
+
+ .social-image {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50rem;
+    
+    object-fit: cover;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+
+h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5em;
+    color: yellow;
+    width: 3em;
+    height: 3em;
+  }
+
+  .ml8 .letters-container {
+    position: absolute;
+    left: 0.1em;
+    right: 0;
+    margin: auto;
+    top: -2em;
+    bottom: 0;
+    height: 1em;
+  }
+  .ml8 .letters {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.8em;
+    
+  }
+  
+  .ml8 .circle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .ml8 .circle-white {
+    width: 6.5em;
+    height: 6.5em;
+    border: 2px solid yellow;
+    border-radius: 7em;
+    background-color: rgb(192, 80, 158);
+  }
+  
+  .ml8 .circle-dark {
+    width: 5em;
+    height: 5em;
+    background-color: #4f7b86;
+    border-radius: 3em;
+    
+  }
+  
+  
+  .ml8 .box-dark-border1 {
+    
+    background-color: transparent;
+    border: 2px solid #16b8e0;
+    width: 5.3em;
+    height: 5.3em;
+    animation: box-move2 5s infinite;
+  }
+
+  .ml8 .box-dark-border2 {
+    -webkit-transform: rotate(45deg) ;
+    background-color: transparent;
+    border: 2px solid #46f8c3;
+    width: 5.3em;
+    height: 5.3em;
+    animation: box-move1 5s infinite;
+  }
+
+  .ml8 .box-dark-dashed3 {
+    
+    background-color: transparent;
+    border: 2px dashed yellow;
+    width: 4.7em;
+    height: 4.7em;
+    border-radius: 4em;
+  }
+
+  @keyframes box-move1 {
+    0%   {width: 0em; height: 0em}
+    50%  {width: 6em; height:6em}
+    
+    100% {width: 5.3em; height:5.3em}
+  }
+  @keyframes box-move2 {
+    0%   {width: 0em; height: 0em}
+    50%  {width: 5.3em; height:5.3em}
+    
+    100% {width: 6em; height: 6em}
+  }
+
+  
+
+.text-outline{
+    
+   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: rgb(136, 36, 128);
+   font-size: 64px;
+   font-family: 'Arvo', serif;
+}
+
+.text-fill{
+  font-family: 'Arvo', serif;
+  font-weight: 300;
+  color: rgb(143, 34, 119);
+  font-size: 80px;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #fff, 0 0 30px  palevioletred, 0 0 40px   palevioletred;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #a72a68, 0 0 40px #a72a68, 0 0 50px  #a72a68, 0 0 60px  #a72a68;
+    }
+  }
+
+  .emoji{
+    font-size: 5rem;
+    margin-left: 25rem;
+    animation: heartbeat 1s infinite;
+  }
+  @keyframes heartbeat {
+    from{
+      font-size: 5rem;
+    }
+    to{
+      font-size: 7rem;
+    }
+  }
