@@ -76,15 +76,10 @@ footer .link{
     margin-block-end: 1rem;
   }
 
-h1.ml8 {
-    font-weight: 900;
-    font-size: 3.5rem;
-    color: yellow;
-    
-  }
+
 
   
-  .ml8 .circle {
+   .circle {
     position: absolute;
     left: 0;
     right: 0;
@@ -93,7 +88,7 @@ h1.ml8 {
     bottom: 0;
   }
   
-  .ml8 .circle-white {
+  .circle-white {
     width: 25rem;
     height: 25rem;
     border: 2px solid yellow;
@@ -101,17 +96,21 @@ h1.ml8 {
     background-color: rgb(192, 80, 158);
   }
   
-  .ml8 .circle-dark {
+   .circle-dark {
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: yellow;
     width: 18rem;
     height: 18rem;
     background-color: #4f7b86;
     border: 2px dashed yellow;
-    border-radius: 15rem;
+    border-radius: 18rem;
+    
     
   }
   
   
-  .ml8 .box-dark-border1 {
+   .box-dark-border1 {
     
     background-color: transparent;
     border: 2px solid #16b8e0;
@@ -120,7 +119,7 @@ h1.ml8 {
     animation: box-move2 5s infinite;
   }
 
-  .ml8 .box-dark-border2 {
+  .box-dark-border2 {
     -webkit-transform: rotate(45deg) ;
     background-color: transparent;
     border: 2px solid #46f8c3;
